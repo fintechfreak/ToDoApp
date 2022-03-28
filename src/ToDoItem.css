@@ -1,0 +1,40 @@
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button.input-group-text:hover {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+button.input-group-text:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.ToDo-task:hover {
+  cursor: pointer;
+}
+
+.ToDo-task.completed {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+div.ToDo-task-completed button:hover {
+  background-color: #e9ecef;
+  color: #212529;
+  opacity: 0.3;
+}
+
+div.ToDo-task-completed button {
+  background-color: #e9ecef;
+  color: #212529;
+  opacity: 0.3;
+}
+
+div.TaskEditing button:hover {
+  background-color: #e9ecef;
+  color: #212529;
+}
